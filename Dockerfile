@@ -7,3 +7,4 @@ RUN apt-get update
 RUN apt-get install -y mongodb-org
 RUN mkdir -p /var/lib/mongo
 RUN mkdir -p /var/log/mongodb
+
