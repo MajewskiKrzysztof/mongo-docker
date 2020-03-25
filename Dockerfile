@@ -9,4 +9,6 @@ RUN mkdir -p /var/lib/mongo
 RUN mkdir -p /var/log/mongodb
 
 # run mongo db
+ENTRYPOINT echo "STARTING MONGO DB"
 ENTRYPOINT mongod --dbpath /var/lib/mongo --logpath /var/log/mongodb/mongod.log --fork
+ENTRYPOINT echo "STARTED MONGO DB"
