@@ -2,7 +2,7 @@ FROM ubuntu:20.04
 
 # isntall maven
 RUN apt-get update
-RUN apt-get install maven
+RUN apt-get -y install maven
 
 # install mongo db
 RUN wget -qO - https://www.mongodb.org/static/pgp/server-4.2.asc | apt-key add -
