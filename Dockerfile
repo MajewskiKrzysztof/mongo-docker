@@ -1,4 +1,4 @@
-FROM FROM ubuntu:20.04
+FROM ubuntu:20.04
 
 # isntall maven
 RUN apt-get update
