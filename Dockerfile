@@ -6,7 +6,7 @@ RUN apt-get -y install maven
 
 # install java
 RUN apt-get update
-RUN apt-get -y install default-jre
+RUN apt-get -y install default-jdk
 
 # install mongo db
 RUN apt install -y mongodb
